@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="incident">assignment_groupISNOTEMPTY^EQ<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <conditions table="incident">assignment_groupISEMPTY^EQ<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -21,22 +21,22 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Assignment group mandatory</short_description>
+        <short_description>assignment mandatory</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-10-16 17:20:59</sys_created_on>
+        <sys_created_on>2018-10-17 09:41:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>27f00f3fdb0163000308bd513996195b</sys_id>
+        <sys_id>9e81664cdb1123000308bd5139961906</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Assignment group mandatory</sys_name>
+        <sys_name>assignment mandatory</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ui_policy_27f00f3fdb0163000308bd513996195b</sys_update_name>
+        <sys_update_name>sys_ui_policy_9e81664cdb1123000308bd5139961906</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-16 17:20:59</sys_updated_on>
+        <sys_updated_on>2018-10-17 09:41:40</sys_updated_on>
         <table>incident</table>
         <ui_type>0</ui_type>
         <view/>
